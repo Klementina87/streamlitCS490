@@ -104,7 +104,8 @@ plot_multi_indicators(df, indicators_list=indicators_plot)
 
 ## Include covid cases
 st.subheader('Covid Cases with respect to Close Price for 2019 only. Covid cases are based on USA records only.')
-red_covid=get_covid_cases('us-counties.csv')
+# red_covid=get_covid_cases('us-counties.csv')
+red_covid=pd.read_csv('red_covid.csv')
 red_trade=df[df['Date']>'2019-12-31']
 red_df = pd.merge(red_trade, red_covid, left_on='Date', right_on='date')
 if selectbox=='Boxl':

@@ -1,1 +1,7 @@
-# streamlitCS490
+# Stock Market Prices Prediction
+## To install the requirements.txt file please use:   pip install -r requirements.txt
+Stock market is one of the most competitive financial markets and traders need to compute the financial workloads with low latency and high throughput. In the past, people were using the traditional store and process method to calculate the heavy financial workloads efficiently. 
+The prediction of a stock market direction may serve as an early recommendation system for short-term investors and as an early financial distress warning system for long-term shareholders. Forecasting accuracy is the most important factor in selecting any forecasting methods. Research efforts in improving the accuracy of forecasting models are increasing since the last decade. The appropriate stock selections those are suitable for investment is a very difficult task. The key factor for each investor is to earn maximum profits on their investments. 
+In this paper, I present models that predict the changes in stock trend by analyzing the influence of different financial indicators. Support Vector Machine Algorithm (SVM), Random Forest and Neural Networks(NN) learning algorithms are used as predicting models. 
+For making such a prediction models, I use intraday prices on 2 years (Jan 1, 2019 – Jan 1, 2021) of data retrieved from Yahoo Finance. Covid-19 data is also included for the year of 2020 only. The results will be used to analyze the stock prices and their prediction in depth in future research efforts.
+
